@@ -52,9 +52,9 @@ console.log(mike);
 console.log(mike.__proto__);
 console.log(mike.__proto__.__proto__);
 
-console.log(mik instanceof Student);
-console.log(mik instanceof Person);
-console.log(mik instanceof Object);
+console.log(mike instanceof Student);
+console.log(mike instanceof Person);
+console.log(mike instanceof Object);
 
 // Student.prototype.constructor = Student;
 
