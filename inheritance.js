@@ -45,3 +45,18 @@ const mike = new Student("Michael", 1990, "Software Engineering");
 
 mike.intro(); // check the console in the browser tools.
 mike.calcAge();
+
+// the chain!!!!!!!!!!
+//check this out in the browser console
+console.log(mike);
+console.log(mike.__proto__);
+console.log(mike.__proto__.__proto__);
+
+console.log(mik instanceof Student);
+console.log(mik instanceof Person);
+console.log(mik instanceof Object);
+
+// Student.prototype.constructor = Student;
+
+console.log(Student.prototype.constructor); //check what this points to.... why?
+console.dir(Student.prototype.constructor); //check what this points to... why???
